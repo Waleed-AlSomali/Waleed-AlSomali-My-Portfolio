@@ -1,0 +1,85 @@
+body {
+    background-color: #FDFFE2;   
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    height: 70vh;
+    background: url(./images/Back.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+
+nav {
+
+    background-color: navy ;
+    opacity: 0.8;
+    
+}
+
+nav , ul li a{
+    text-shadow: 0.1rem  0.2rem darkred;
+    padding: 0.5dvh;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+a:hover{
+    font-size: 2rem;
+    transform: scaleX(1)
+}
+
+contacts{
+    height: 20vh;
+    overflow: scroll;
+}
+
+header{
+    
+    background-color: lightseagreen;
+    width: 250px;
+    min-height: 5vh;
+    padding: 2rem;
+    color: rgb(243, 228, 15);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+   
+
+}
+
+.Namecard{
+    text-align: center;
+    text-transform: capitalize;
+    text-overflow: clip;
+    width: 200px;
+}
+
+.Namecard:hover{
+
+    font-size: 2rem;
+    transform-box:fill-box
+}
+
+summary{
+
+}
+
+
+
+
+.icon{
+    font-size: 3rem;
+    opacity: 1;
+}
+
+.icon:hover{
+    font-size: 6rem;
+    opacity: 0.7;
+}
