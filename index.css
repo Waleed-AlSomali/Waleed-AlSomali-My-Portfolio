@@ -42,7 +42,7 @@ contacts{
 
 header{
     
-    background-color: lightseagreen;
+   
     width: 250px;
     min-height: 5vh;
     padding: 2rem;
@@ -50,6 +50,8 @@ header{
     display: flex;
     flex-flow: column;
     justify-content: center;
+    text-shadow: 0.1rem  0.2rem darkred;
+
    
 
 }
@@ -64,12 +66,111 @@ header{
 .Namecard:hover{
 
     font-size: 2rem;
-    transform-box:fill-box
+    transform-box:fill-box;
+    width: 400px;
 }
 
-summary{
+#summary{
+    color: rgb(243, 228, 15);
+    text-shadow: 0.1rem  0.2rem darkred;
+
+    
 
 }
+
+#summary:hover{
+
+    font-size: 2rem;
+    transform-box:fill-box;
+    min-width: 400px;
+}
+
+#education{
+
+    color: rgb(243, 228, 15);
+    text-shadow: 0.1rem  0.2rem darkred;
+
+}
+
+#education:hover{
+
+    font-size: 2rem;
+    transform-box:fill-box;
+    min-width: 400px;
+}
+
+#skills{
+
+    color: rgb(243, 228, 15);
+    text-shadow: 0.1rem  0.2rem darkred;
+}
+
+#skills:hover{
+
+    font-size: 2rem;
+    transform-box:fill-box;
+    min-width: 400px;
+}
+
+#projects{
+
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 228, 15);
+    text-shadow: 0.1rem  0.2rem darkred;
+}
+
+#projects:hover{
+
+    font-size: 2rem;
+    transform-box:fill-box;
+    min-width: 400px;
+}
+
+#experience{
+
+    color: rgb(243, 228, 15);
+    text-shadow: 0.1rem  0.2rem darkred;
+}
+
+#experience:hover{
+
+    font-size: 2rem;
+    transform-box:fill-box;
+    min-width: 400px;
+}
+
+.contactinfo{
+
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    font-size: 1.5rem;
+    color: rgb(243, 228, 15);
+    text-shadow: 0.1rem  0.2rem darkred;
+}
+
+
+
+textarea:hover{
+
+    background-color: rgb(150, 170, 213);
+    
+}
+
+input:hover{
+
+    background-color: rgb(150, 170, 213);
+
+}
+
+.button:hover{
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 104, 211);
+}
+
+
 
 
 
@@ -82,4 +183,29 @@ summary{
 .icon:hover{
     font-size: 6rem;
     opacity: 0.7;
+}
+
+.linkicons{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around  ;
+    font-size: 2rem;
+    transform-box:fill-box;
+    width: 300px;
+    color: rgb(243, 228, 15);
+    text-shadow: 0.1rem  0.2rem darkred;
+}
+
+.last{
+
+    display: flex;
+    
+    align-content: end;
+    justify-content: space-around ;
+    font-size: 2rem;
+    transform-box:fill-box;
+    min-width: 400px;
+    color: rgb(243, 228, 15);
+    text-shadow: 0.1rem  0.2rem darkred;
 }
