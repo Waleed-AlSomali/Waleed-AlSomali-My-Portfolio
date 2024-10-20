@@ -30,10 +30,7 @@ nav , ul li a{
     
 }
 
-a:hover{
-    font-size: 2rem;
-    transform: scaleX(1)
-}
+
 
 contacts{
     height: 20vh;
@@ -63,13 +60,6 @@ header{
     width: 200px;
 }
 
-.Namecard:hover{
-
-    font-size: 2rem;
-    transform-box:fill-box;
-    width: 400px;
-}
-
 #summary{
     color: rgb(243, 228, 15);
     text-shadow: 0.1rem  0.2rem darkred;
@@ -78,12 +68,6 @@ header{
 
 }
 
-#summary:hover{
-
-    font-size: 2rem;
-    transform-box:fill-box;
-    min-width: 400px;
-}
 
 #education{
 
@@ -92,12 +76,6 @@ header{
 
 }
 
-#education:hover{
-
-    font-size: 2rem;
-    transform-box:fill-box;
-    min-width: 400px;
-}
 
 #skills{
 
@@ -105,12 +83,7 @@ header{
     text-shadow: 0.1rem  0.2rem darkred;
 }
 
-#skills:hover{
 
-    font-size: 2rem;
-    transform-box:fill-box;
-    min-width: 400px;
-}
 
 #projects{
 
@@ -120,12 +93,6 @@ header{
     text-shadow: 0.1rem  0.2rem darkred;
 }
 
-#projects:hover{
-
-    font-size: 2rem;
-    transform-box:fill-box;
-    min-width: 400px;
-}
 
 #experience{
 
@@ -133,12 +100,6 @@ header{
     text-shadow: 0.1rem  0.2rem darkred;
 }
 
-#experience:hover{
-
-    font-size: 2rem;
-    transform-box:fill-box;
-    min-width: 400px;
-}
 
 .contactinfo{
 
@@ -150,40 +111,11 @@ header{
     text-shadow: 0.1rem  0.2rem darkred;
 }
 
-
-
-textarea:hover{
-
-    background-color: rgb(150, 170, 213);
-    
-}
-
-input:hover{
-
-    background-color: rgb(150, 170, 213);
-
-}
-
-.button:hover{
-
-    color: rgb(255, 255, 255);
-    background-color: rgb(55, 104, 211);
-}
-
-
-
-
-
-
 .icon{
     font-size: 3rem;
     opacity: 1;
 }
 
-.icon:hover{
-    font-size: 6rem;
-    opacity: 0.7;
-}
 
 .linkicons{
 
